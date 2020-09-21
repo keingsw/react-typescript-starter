@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:keingsw/react-typescript-starter.git",
   "author": "keingsw <dev.keingsw@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
 }
