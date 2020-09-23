@@ -7,12 +7,11 @@ const config: webpack.Configuration = {
     module: {
         rules: [
             {
-                test: /\.tsx?$/,
-                loader: "ts-loader",
-                options: {
-                    transpileOnly: true
-                },
-                exclude: /dist/
+                test: /\.(ts|js)x?$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: "babel-loader"
+                }
             }
         ]
     },
